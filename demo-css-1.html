@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+   * {
+     padding: 0;
+     margin: 0;
+   }
+ 
+ 
+   .buttons {
+     display: flex;
+     justify-content: center;
+     background-color: #deedfe;
+     margin: 10rem auto;
+     width: 800px;
+     padding: 3rem;
+   }
+ 
+ 
+   .button {
+     background-color: #56bbc6;
+     margin: 1rem;
+     padding: 1rem;
+     width: 10rem;
+     font-size: 1.3rem;
+     text-align: center;
+ 
+ 
+     border: solid black 2px;
+     border-radius: 50px;
+   }
+ 
+ 
+   @media (max-width: 600px) {
+     .buttons {
+       flex-direction: column;
+       align-items: center;
+       margin: 5rem auto;
+       width: 80%;
+       padding: 1.5rem;
+     }
+ 
+ 
+     .button {
+       width: 80%;
+       margin: 0.5rem;
+     }
+   }
+ </style>
+</head>
+<body>
+ <div class="buttons">
+   <div class="button button1">Sign up for Free</div>
+   <div class="button button2">Book a Demo</div>
+ </div>
+</body>
+</html>

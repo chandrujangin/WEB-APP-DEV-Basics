@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head><title>HTML Tutorial</title>
+      <style type="text/css">
+         p.test {font-weight: bold; color: red ;}
+      </style>
+   </head>
+   <body>
+      <form action="">
+      <label for="email">Email:</label>
+      <input type="text" name="email" value="gordo@example.com">
+      <input type="submit" formnovalidate value="Submit">
+      </form>
+      <p class=" test ">This is HTML5</p>
+      <p>This is HTML Document</p>
+      <p title="HTML title attribute!!"> Hover the mouse over this text 
+      </p>
+      <label>Your favorite fruit:
+            <datalist id="fruits">
+            <select name="fruits">
+               <option value="Blackberry">Blackberry</option>
+               <option value="Blackcurrant">Blackcurrant</option>
+               <option value="Blueberry">Blueberry</option>
+               <!-- … -->
+            </select>
+            If other, please specify:
+            </datalist>
+            <input type="text" name="fruit" list="fruits">
+      </label>
+
+      <label>Your favorite fruit:
+         <datalist id="fruits">
+         <select name="fruits">
+            <option value="Blackberry">Blackberry</option>
+            <option value="Blackcurrant">Blackcurrant</option>
+            <option value="Blueberry">Blueberry</option>
+            <!-- … -->
+         </select>
+         If other, please specify:
+         </datalist>
+         <input type="text" name="fruit" list="fruits" multiple>
+      </label>
+      <label>Upload files:
+      <input type="file" multiple name="upload"></label>
+
+   </body>
+</html>
+

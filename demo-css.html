@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <style>
+     @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+
+
+     * {
+       padding: 0;
+       margin: 0;
+     }
+
+
+     body {
+       background-color: #fff;
+       text-align: center;
+       font-family: "Lato", sans-serif;
+     }
+
+
+     .container {
+       margin: 10rem auto;
+       width: 800px;
+       background-color: #deedfe;
+       padding: 3rem;
+     }
+
+
+     .container img {
+       display: block;
+       margin: auto;
+       margin-bottom: 2rem;
+       transform: scale(1.5);
+     }
+
+
+     p {
+       margin: 1rem 0;
+       font-size: 1.5rem;
+     }
+
+
+     .buttons {
+       display: flex;
+       justify-content: center;
+     }
+
+
+     .button {
+       background-color: #56bbc6;
+       margin: 1rem;
+       padding: 1rem;
+       width: 10rem;
+       font-size: 1.3rem;
+       text-align: center;
+       border: solid black 2px;
+       border-radius: 50px;
+     }
+
+
+     @media (max-width: 600px) {
+       .container {
+         width: 80%;
+         margin: 5rem auto;
+         padding: 1.5rem;
+       }
+
+
+       .container img {
+         transform: scale(1);
+       }
+
+
+       p {
+         font-size: 1rem;
+       }
+       .buttons {
+         flex-direction: column;
+         align-items: center;
+       }
+
+
+       .button {
+         width: 8rem;
+         font-size: 1rem;
+         margin: 0.5rem;
+       }
+     }
+   </style>
+ </head>
+ <body>
+   <div class="container">
+     <img
+       src="https://www.lambdatest.com/resources/images/logos/logo.svg"
+       alt="lambdatest header"
+     />
+     <p>
+       A reliable, scalable, secure, and high performing test execution cloud
+       that empowers development and testing teams to accelerate their release
+       cycles.
+     </p>
+     <div class="buttons">
+       <div class="button">Sign up for Free</div>
+       <div class="button">Book a Demo</div>
+     </div>
+   </div>
+ </body>
+</html>

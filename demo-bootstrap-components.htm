@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Components of BootStrap</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+</head>
+
+<!-- A nav code-->
+<br />
+<h3>Nav:</h3>
+<ul class="nav">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" 
+           href="#provide link url here">
+            First link
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" 
+           href="#provide link url here">
+            second link
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" 
+           href="#provide link url here" 
+           tabindex="-1" 
+           aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+
+<!-- A nav code-->
+
+<!-- A small alert code-->
+<h3>Alert:</h3>
+<div class="alert alert-info" role="alert">
+    A simple alert!
+</div>
+
+<!-- A small alert code-->
+<h3>Modal:</h3>
+
+<!-- Button trigger modal-->
+<button type="button" 
+        class="btn btn-success" 
+        data-toggle="modal" 
+        data-target="#exampleModal">
+    geeksforgeeks
+</button>
+
+<!-- Modal -->
+<div class="modal fade" 
+     id="exampleModal" 
+     tabindex="-1" 
+     aria-labelledby="exampleModalLabel" 
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    geeksforgeeks
+                </h5>
+                <button type="button" 
+                        class="close" 
+                        data-dismiss="modal" 
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Hello, thanks for checking
+                out geeksforgeeks!
+            </div>
+            <div class="modal-footer">
+                <button type="button" 
+                        class="btn btn-secondary" 
+                        data-dismiss="modal">
+                    Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                    Save
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- A button trigger modal-->
+
+</html>
